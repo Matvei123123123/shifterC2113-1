@@ -10,7 +10,7 @@ public class CubeController : MonoBehaviour
         _rb = GetComponent<Rigidbody>();
         _rb.isKinematic = true;
 
-        Invoke("DropCube", 5f);
+        Invoke("DropCube", 2.5f);
     }
 
 
